@@ -1,0 +1,53 @@
+.Cart {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 3rem 0;
+
+    .Cart-item {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        margin-bottom: 1rem;
+
+        .name {
+            text-transform: capitalize;
+        }
+
+        .quantity {
+            display: flex;
+            font-size: 2rem;
+
+            div {
+                margin: 0 1rem;
+            }
+
+            span {
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        
+        .btn {
+            color: blue;
+            font-size: 1.5rem;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    button {
+        padding: 2rem;
+        cursor: pointer;
+        background-color: lightblue;
+        color: white;
+        border: none;
+    }
+}

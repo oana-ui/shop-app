@@ -1,0 +1,40 @@
+.Form {
+    .Form-header-group {
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0;
+    
+        h2 {
+            font-size: 3rem;
+        }
+    
+        .btn-section {
+    
+            .btn {
+                margin-left: 0.5rem;
+                padding: 1rem 3rem;
+                text-transform: uppercase;
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            .save {
+                background-color: lightblue;
+                color: white;
+                border: none;
+            }
+        }
+    
+    
+    }
+    
+    input {
+        display: block;
+        margin: 1rem auto;
+        padding: 1rem;
+        width: 80%;
+    }
+}
+

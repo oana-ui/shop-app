@@ -1,0 +1,54 @@
+.Details {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+
+    .img-section {
+        width: 50%;
+
+        img {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 1rem 5rem;
+
+        h2 {
+            text-transform: capitalize;
+            font-size: 2rem;
+        }
+
+        .desc {
+            font-size: 1.5rem;
+        }
+
+        .price {
+            font-size: 2rem;
+        }
+
+        .line {
+            border-bottom: 1px solid black;
+            margin: 2rem 0;
+        }
+
+        .stock {
+            margin: 1rem 0;
+            font-size: 2rem;
+        }
+        input {
+            margin: 1rem 0;
+        }
+
+        button {
+            padding: 1rem 6rem;
+            background-color: lightblue;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

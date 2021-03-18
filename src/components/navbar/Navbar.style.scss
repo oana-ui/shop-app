@@ -1,0 +1,23 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+
+    &-list {
+        display: flex;
+        list-style-type: none;
+
+        &-item {
+            a {
+                padding: 1rem 2rem;
+                background-color: black;
+                color: white;
+            }
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
